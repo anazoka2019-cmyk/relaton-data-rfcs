@@ -1,0 +1,210 @@
+---
+schema-version: v1.2.3
+id: RFC9929
+title:
+- content: IGP Unreachable Prefix Announcement
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9929
+  type: src
+type: standard
+docid:
+- id: RFC 9929
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9929
+  type: DOI
+docnumber: RFC9929
+date:
+- type: published
+  value: 2026-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Psenak
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Psenak
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Filsfils
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Filsfils
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Voyer
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Voyer
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hegde
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Hegde
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mishra
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Mishra
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>Summarization is often used in multi-area or multi-domain networks to
+    improve network efficiency and scalability. With summarization in place, there
+    is a need to signal loss of reachability to an individual prefix covered by the
+    summary. This enables fast convergence by steering traffic, when applicable, away
+    from the node which owns the prefix and is no longer reachable.</p><p>This document
+    specifies protocol mechanisms in IS-IS and OSPF, together with two new flags,
+    to advertise such prefix reachability loss.</p><p>The term "OSPF" in this document
+    is used to refer to both OSPFv2 and OSPFv3.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9929'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: lsr
+ext:
+  schema-version: v1.0.1
+  stream: IETF

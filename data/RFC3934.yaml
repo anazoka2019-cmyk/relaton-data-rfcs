@@ -76,6 +76,16 @@ abstract:
   - Latn
   format: text/html
 relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC9945
+    docid:
+    - id: RFC9945
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9945
+      format: text/plain
 - type: updates
   bibitem:
     id: RFC2418
@@ -87,10 +97,6 @@ relation:
       content: RFC2418
       format: text/plain
 series:
-- title:
-    content: BCP
-    format: text/plain
-  number: '25'
 - title:
     content: RFC
     format: text/plain
