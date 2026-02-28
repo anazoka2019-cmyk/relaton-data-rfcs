@@ -19441,3 +19441,7 @@
   :file: data/RFC9923.yaml
 - :id: RFC 9929
   :file: data/RFC9929.yaml
+- :id: RFC 9930
+  :file: data/RFC9930.yaml
+- :id: RFC 9945
+  :file: data/RFC9945.yaml

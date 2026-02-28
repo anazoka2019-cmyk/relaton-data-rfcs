@@ -162,6 +162,17 @@ abstract:
   script:
   - Latn
   format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC9930
+    docid:
+    - id: RFC9930
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9930
+      format: text/plain
 series:
 - title:
     content: RFC
